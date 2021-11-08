@@ -1,0 +1,28 @@
+{
+  "name": "@definelib/cli",
+  "version": "1.0.1",
+  "description": "define or download lib module cli tools for packages of @definelib",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "definelib": "bin/definelib.js"
+  },
+  "keywords": [],
+  "author": "micty",
+  "email": "mictydeng@qq.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/definelib/cli.git"
+  },
+  "dependencies": {
+    "@definejs/directory": "^2.0.3",
+    "@definejs/file": "^2.0.1",
+    "@definejs/fn": "^1.0.0",
+    "@definejs/hint-line": "^1.0.0",
+    "@definejs/lines": "^1.0.0",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "ora": "^4.0.4"
+  }
+}
