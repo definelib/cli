@@ -6,7 +6,7 @@
 //示例：
 //  definelib install <package-name> [--force|-f]
 //  definelib install gridview
-//  definelib insgtall gridview -f
+//  definelib install gridview -f
 
 const { program, } = require('commander');
 const NPM = require('./install/NPM');

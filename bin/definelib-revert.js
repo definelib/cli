@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 //把用 define(id, factory) 包装定义的模块复原成符合 Node.js 的模块。
-//当把一个项目的中用 define() 包装定义的模块发布到 npm 时，最好同时提供符合 Node.js 模块定义规范的版本。
+//当把一个项目中用 define() 包装定义的模块发布到 npm 时，最好同时提供符合 Node.js 模块定义规范的版本。
 //复原转换后的结果会放在 `modules` 目录，与 `define` 目录在同一级目录。
 //因此要确保当前目录下存在 `define` 子目录，并且不要在 `modules` 下存放文件（否则会给清空而丢失）。
 

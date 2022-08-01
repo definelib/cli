@@ -1,6 +1,6 @@
 {
   "name": "@definelib/cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "define or download lib module cli tools for packages of @definelib",
   "main": "index.js",
   "scripts": {},
